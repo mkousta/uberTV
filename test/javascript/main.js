@@ -9,6 +9,29 @@ XHRObj : null
 Main.onLoad = function()
 {
 	alert("Main.onLoad()");
+	var sequence = {
+            name :'capability1',
+            data :[  [1326304285000 , 0.0],
+                                 [1326304104000 , 0.0],
+                                 [1326303925000 , 0.0],
+                                 [1326303745000 , 0.0],
+                                 [1326303565000 , 0.0],
+                                 [1326303385000 , 0.0],
+                                 [1326303205000 , 0.0],
+                                 [1326303025000 , 0.0],
+                                 [1326302844000 , 0.0],
+                                 [1326302665000 , 0.0],
+                                 [1326302485000 , 91.0],
+                                 [1326302305000 , 92.0]
+           ]
+        };
+        divContainer = 'container1';
+        titleText = 'capability1';
+        subtitleText = 'node1';
+        yaxisText = 'capability1';
+        //console.log("readings data loaded")
+        uberdustSeries.push(sequence);
+		
 	// To enable the key event processing
 	document.getElementById("anchor").focus();
 	
