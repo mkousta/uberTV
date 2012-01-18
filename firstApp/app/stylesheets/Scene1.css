@@ -1,0 +1,22 @@
+#SceneScene1 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 720px;
+	background-color : #ffffff;
+}
+#SceneScene1 #container1{
+	position : absolute;
+	left : 0px;
+	top : 20px;
+	width : 1280px;
+	height : 500px;
+}
+#SceneScene1 #container2{
+	position : absolute;
+	left : 0px;
+	top : 521px;
+	width : 1280px;
+	height : 100px;
+}
