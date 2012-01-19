@@ -21,7 +21,7 @@ SceneScene1.prototype.handleShow = function () {
 	widgetAPI.sendReadyEvent();
 	*/	
 	
-	var URL = "http://uberdust.cti.gr/rest/testbed/1/node/urn:wisebed:ctitestbed:0x14d4/capability/urn:wisebed:node:capability:temperature/tabdelimited/limit/10";
+	var URL = "http://uberdust.cti.gr/rest/testbed/1/node/urn:wisebed:ctitestbed:0x1ccd/capability/urn:wisebed:node:capability:light/tabdelimited/limit/100";
 	if (XHRObj) {
 		XHRObj.open("GET", URL, true);
 		XHRObj.send();
@@ -79,49 +79,30 @@ SceneScene1.prototype.handleKeyDown = function (keyCode) {
 
 SceneScene1.recieveData = function () {
 
-	var times  = new Array();
-	var temperatures = new Array();
-	
 	var myResponse = XHRObj.responseText;
 	alert(myResponse);
+	var lines = new Array(); 
 	
-	var temp = myResponse;
-	while(temp.indexOf("\n")!= -1 ){
-	temp =  temp.replace('\t','');
-	temp =  temp.replace('\n','');
-    }
-	alert(temp);
+	lines = myResponse.split("\n");
 	
+	var datavalues = new Array();
 	var time;
-	var temperature;
-	var counter = 0;
-	for(var i=0; i<10; i++){
-		time =  temp.substr(counter, 13);
-		//alert(time);
-		times[i] = parseFloat(time);
-		counter = counter+13;
-		temperature = temp.substr(counter, 4);
-		//alert(temperature);
-		temperatures[i] = parseFloat(temperature);	
-		counter = counter+4;
+	var value;
+	for(var i=0;i<lines.length-1;i++){
+		alert(lines[i]);
+		time = parseFloat(lines[i].split("\t")[0]);
+		value = parseFloat(lines[i].split("\t")[1]);
+		datavalues[i] = [time,value];
 	}
-		
+	
+	
 	var chart;
 	var divContainer = document.getElementById('container1');
 	var titleText = "Room temperature over Time";
 	var subtitleText = 'sensor readings from uberdust';
 	var xaxisText = 'time';
 	var yaxisText = 'temperature (C)';
-	var uberdustSeries = [{ name: 'temperature', data: [[times[0],temperatures[0]],
-													[times[1],temperatures[1]],
-													[times[2],temperatures[2]],
-													[times[3],temperatures[3]],
-													[times[4],temperatures[4]],
-													[times[5],temperatures[5]],
-													[times[6],temperatures[6]],
-													[times[7],temperatures[7]],
-													[times[8],temperatures[8]],
-													[times[9],temperatures[9]]]
+	var uberdustSeries = [{ name: 'temperature', data: datavalues
 						 }];
 	alert("Making Chart");
 	chart = new Highcharts.Chart({
@@ -158,4 +139,5 @@ SceneScene1.recieveData = function () {
 		},
 		series: uberdustSeries
 	});
+	
 }
