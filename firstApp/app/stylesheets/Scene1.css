@@ -2,21 +2,107 @@
 	position : absolute;
 	left : 0px;
 	top : 0px;
-	width : 1280px;
-	height : 720px;
-	background-color : #ffffff;
+	width : 960px;
+	height : 540px;
+	background-color : #5F9EA0;
+	text-align:center;
+	text-color:black
 }
-#SceneScene1 #container1{
+
+#SceneScene1 #room5{
+	position : absolute;
+	left : 100px;
+	top : 100px;
+	width : 150px;
+	height : 130px
+}
+
+#SceneScene1 #room4{
+	position : absolute;
+	left : 251px;
+	top : 100px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room3{
+	position : absolute;
+	left : 402px;
+	top : 100px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room2{
+	position : absolute;
+	left : 553px;
+	top : 100px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room1{
+	position : absolute;
+	left : 704px;
+	top : 100px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room6{
+	position : absolute;
+	left : 100px;
+	top : 231px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room7{
+	position : absolute;
+	left : 251px;
+	top : 231px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room12{
+	position : absolute;
+	left : 402px;
+	top : 231px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room11{
+	position : absolute;
+	left : 553px;
+	top : 231px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room8{
+	position : absolute;
+	left : 100px;
+	top : 362px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room9{
+	position : absolute;
+	left : 251px;
+	top : 362px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #room10{
+	position : absolute;
+	left : 402px;
+	top : 362px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene1 #roof{
+	position : absolute;
+	left : 704px;
+	top : 362px;
+	width : 150px;
+	height : 130px
+}
+#SceneScene4 #KeyHelp{
 	position : absolute;
 	left : 0px;
-	top : 0px;
-	width : 1280px;
-	height : 500px;
-}
-#SceneScene1 #container2{
-	position : absolute;
-	left : 0px;
-	top : 521px;
-	width : 1280px;
-	height : 100px;
+	top : 510px;
 }

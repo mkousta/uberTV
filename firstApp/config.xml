@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget>
-	<previewjs itemtype="string"></previewjs>
-	<preicon itemtype="string"></preicon>
+	<ThumbIcon itemtype="string">icon/default_106.png</ThumbIcon>
+	<BigThumbIcon itemtype="string">icon/default_115.png</BigThumbIcon>
+	<ListIcon itemtype="string">icon/default_85.png</ListIcon>
+	<BigListIcon itemtype="string">icon/default_95.png</BigListIcon>
+	<category itemtype="string"></category>
+	<autoUpdate itemtype="boolean">n</autoUpdate>
 	<cpname itemtype="string"></cpname>
 	<cplogo itemtype="string"></cplogo>
 	<cpauthjs itemtype="string"></cpauthjs>
@@ -17,12 +21,13 @@
 	<type itemtype="string">user</type>
 	<widgetname itemtype="string">MyApps</widgetname>
 	<description itemtype="string"></description>
-	<width itemtype="number">1280</width>
-	<height itemtype="number">720</height>
+	<width itemtype="number">960</width>
+	<height itemtype="number">540</height>
+	<mouse itemtype="string">y</mouse>
 	<author itemtype="group">
-		<name itemtype="string">Samsung Electronics</name>
+		<name itemtype="string">Samsung Electronics Co. Ltd.</name>
 		<email itemtype="string"></email>
-		<link itemtype="string">http://www.pavv.co.kr</link>
-		<organization itemtype="string">Samsung</organization>
+		<link itemtype="string">http://www.sec.co.kr</link>
+		<organization itemtype="string">Samsung Electronics Co. Ltd.</organization>
 	</author>
 </widget>

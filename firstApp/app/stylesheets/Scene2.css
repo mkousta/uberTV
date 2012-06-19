@@ -1,0 +1,23 @@
+#SceneScene2 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #5F9EA0;
+}
+
+#SceneScene2 #container1{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height: 510px;
+
+}
+
+#SceneScene4 #ChartKeyHelp{
+	position : absolute;
+	left : 0px;
+	top : 510px;
+}

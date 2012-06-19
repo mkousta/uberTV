@@ -1,0 +1,176 @@
+#SceneScene4 {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #5F9EA0
+}
+
+#SceneScene4 #titletext{
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 35px;
+	color : white;
+	text-align: center;
+	font-size:30px;
+	font-style:italic
+}
+#SceneScene4 #text{
+	position : absolute;
+	top : 36px;
+	color : white;
+	width : 960px;
+	text-align: center
+}
+#SceneScene4 #date{
+	position : absolute;
+	color : white;
+	width : 960px;
+	top : 55px;
+	text-align: center;
+	font-style:italic
+}
+#SceneScene4 #img1{
+	position : absolute;
+	left : 80px;
+	top : 120px;
+	width : 70px;
+	height : 70px;
+	border: 5px outset #25383C;
+}
+#SceneScene4 #img2{
+	position : absolute;
+	left : 225px;
+	top : 120px;
+	width : 70px;
+	height : 70px
+}
+#SceneScene4 #img3{
+	position : absolute;
+	left : 370px;
+	top : 120px;
+	width : 70px;
+	height : 70px
+}
+#SceneScene4 #img4{
+	position : absolute;
+	left : 510px;
+	top : 120px;
+	width : 70px;
+	height : 70px
+}
+#SceneScene4 #img5{
+	position : absolute;
+	left : 660px;
+	top : 120px;
+	width : 70px;
+	height : 70px
+}
+#SceneScene4 #img6{
+	position : absolute;
+	left : 800px;
+	top : 120px;
+	width : 70px;
+	height : 70px
+}
+#SceneScene4 #svecKeyHelp_PUZT{
+	position : absolute;
+	left : 0px;
+	top : 510px;
+}
+
+#SceneScene4 #lightLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 80px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #humidityLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 225px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #presenceLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 370px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #chLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 510px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #temperatureLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 660px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #pressureLabel{
+	position : absolute;
+	font-size : 12pt;
+	color : white;
+	left : 800px;
+	top : 200px;
+	width : 70px;
+}
+#SceneScene4 #lightSection{
+	position : absolute;
+	font-size : 25px;
+	color : white;
+	left : 50px;
+	top : 360px;
+	width : 70px;
+}
+#SceneScene4 #lightText{
+	position : absolute;
+	left : 250px;
+	top : 360px;
+	width : 150px;
+	height : 100px;
+}
+#SceneScene4 #lightON{
+	position : absolute;
+	left : 250px;
+	top : 380px;
+	width : 100px;
+	height : 100px;
+}
+#SceneScene4 #lightControl{
+	position : absolute;
+	font-size : 25px;
+	color : white;
+	left : 530px;
+	top : 360px;
+	width : 100px;
+	height : 100px;
+}
+
+#SceneScene4 #ButtonON{
+	position : absolute;
+	left : 700px;
+	top : 360px;
+	width : 121px;
+}
+#SceneScene4 #ButtonOFF{
+	position : absolute;
+	left : 700px;
+	top : 430px;
+	width : 121px;
+}
